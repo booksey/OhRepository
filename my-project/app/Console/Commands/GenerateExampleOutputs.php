@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Classes\ExampleData;
+use App\Classes\UserData;
 use Illuminate\Console\Command;
 
 class GenerateExampleOutputs extends Command
@@ -29,6 +30,8 @@ class GenerateExampleOutputs extends Command
     public function handle()
     {
         $exampleData = ExampleData::get();
-        echo var_export($exampleData);
+        foreach ($exampleData as $data) {
+            $userData = new UserData($data);
+        }
     }
 }

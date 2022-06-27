@@ -10,7 +10,7 @@ class ExampleData
      */
     public static function get()
     {
-// output: 470 (370 alappont + 100 többletpont)
+        // output: 470 (370 alappont + 100 többletpont)
         $exampleData1 = [
             'valasztott-szak' => [
                 'egyetem' => 'ELTE',
@@ -58,7 +58,7 @@ class ExampleData
             ],
         ];
 
-// output: 476 (376 alappont + 100 többletpont)
+        // output: 476 (376 alappont + 100 többletpont)
         $exampleData2 = [
             'valasztott-szak' => [
                 'egyetem' => 'ELTE',
@@ -111,7 +111,7 @@ class ExampleData
             ],
         ];
 
-// output: hiba, nem lehetséges a pontszámítás a kötelező érettségi tárgyak hiánya miatt
+        // output: hiba, nem lehetséges a pontszámítás a kötelező érettségi tárgyak hiánya miatt
         $exampleData3 = [
             'valasztott-szak' => [
                 'egyetem' => 'ELTE',
@@ -149,7 +149,7 @@ class ExampleData
             ],
         ];
 
-// output: hiba, nem lehetséges a pontszámítás a magyar nyelv és irodalom tárgyból elért 20% alatti eredmény miatt
+        // output: hiba, nem lehetséges a pontszámítás a magyar nyelv és irodalom tárgyból elért 20% alatti eredmény miatt
         $exampleData4 = [
             'valasztott-szak' => [
                 'egyetem' => 'ELTE',
