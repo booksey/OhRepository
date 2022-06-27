@@ -33,8 +33,7 @@ class GenerateExampleOutputs extends Command
         foreach ($exampleData as $data) {
             $userData = new UserData($data);
             $userData->calculate();
-            echo var_export($userData->getCalculatedStandardPoints()) . "\n";
-            echo var_export($userData->getCalculatedExtraPoints()) . "\n";
+            echo "Standard points: " . $userData->getCalculatedStandardPoints() . ", Extra points: ". $userData->getCalculatedExtraPoints() . "\n";
         }
     }
 }
