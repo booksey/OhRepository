@@ -1,6 +1,6 @@
 # OhRepository
 
-The exercise can and input can be found in the project root, meanwhile the code can be found in my-project.
+The exercise pdf and input can be found in the project root, meanwhile the code can be found in my-project.
 First in the project root have  to start the docker container with: 
 
 docker-compose up -d
