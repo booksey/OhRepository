@@ -10,7 +10,7 @@ use Tests\TestCase;
 class ExampleDataTest extends TestCase
 {
     /**
-     * A basic feature test example.
+     * Test ExampleData get featura
      *
      * @return void
      */

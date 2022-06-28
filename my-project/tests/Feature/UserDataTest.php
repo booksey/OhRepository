@@ -11,18 +11,18 @@ use Tests\TestCase;
 class UserDataTest extends TestCase
 {
     /**
-     * A basic feature test example.
+     * Test UserData calculate feature
      *
      * @return void
      */
-    public function test_example_user_data_calculate()
+    public function test_user_data_calculate()
     {
         $exampleData = ExampleData::get();
         foreach ($exampleData as $data) {
             $userData = new UserData($data);
             $userData->calculate();
             $this->assertIsInt($userData->getCalculatedStandardPoints());
-            $this->assertIsInt($userData->getCalculatedStandardPoints());
+            $this->assertIsInt($userData->getCalculatedExtraPoints());
         }
     }
 }
