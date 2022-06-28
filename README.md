@@ -2,8 +2,8 @@
 
 Used technologies:
 Docker container with the following image: https://hub.docker.com/r/bitnami/laravel
-Debian latest
-Laravel 9
+
+This image contains Debian latest + Laravel 9
 
 The exercise pdf and input can be found in the project root, meanwhile the code can be found in my-project.
 First in the project root have to start the docker container with: 
